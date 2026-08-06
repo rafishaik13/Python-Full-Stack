@@ -1,0 +1,101 @@
+Python installation
+
+Visit the official Python website: https://www.python.org
+Download the latest stable version for your operating system.
+During installation (Windows), check "Add Python to PATH".
+Verify installation:
+python3 --version
+
+Popular Python IDEs
+
+*VS Code (Most popular)
+*PyCharm
+*IDLE (Comes with Python)
+*Jupyter Notebook
+*Spyder
+
+ Tokens
+Tokens are the smallest individual units in a Python program.
+Types of Tokens:
+*Keywords
+*Identifiers
+*Literals
+*Operators
+*Delimiters
+
+Examples:
+age → Identifier
+= → Operator
+20 → Literal
+
+Statements
+A statement is a complete instruction executed by Python.
+
+Example:
+print("Hello")
+x = 10
+
+Multiple statements:
+a = 5
+b = 10
+print(a + b)
+
+Identifiers:
+
+Identifiers are names given to:
+Variables
+Functions
+Classes
+Objects
+
+Example:
+name = "John"
+marks = 95
+
+Here:
+name
+marks
+are identifier
+
+Rules for Identifiers:
+✔ Can contain:
+Letters (A–Z, a–z)
+Digits (0–9)
+Underscore (_)
+
+✔ Cannot:
+Start with a digit
+Contain spaces
+Use special symbols (@, #, %, etc.)
+Be Python keyword
+
+Examples:
+student
+student_name
+marks1
+_total
+
+# Variable declaration
+name = "Alice"
+age = 20
+
+# Multiple assignment
+x, y = 10, 20
+
+# Reassignment
+age = 21
+
+# Display values
+print(name)
+print(age)
+print(x, y)
+
+# Swap variables
+x, y = y, x
+print(x, y)
+
+# Delete a variable
+del name
+
+# Uncommenting the next line will raise an error
+# print(name)
