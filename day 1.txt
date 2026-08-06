@@ -1,0 +1,48 @@
+PYTHON INTRODUCTION 
+
+What is Python?
+​A high-level, general-purpose programming language.
+​Focuses on clean syntax and readability, making it versatile, powerful, and easy to learn.
+​Key Point: Easy to learn, powerful to use, and widely adopted across industries.
+
+​2. Features & Advantages
+​Simple & Readable: Clean syntax similar to plain English.
+​Interpreted: No compilation step; code runs line by line.
+​High-Level Language: Focuses on logic rather than complex syntax.
+​Cross-Platform: Works on Windows, macOS, Linux, and more.
+​Large Standard Library: Built-in modules available for almost everything.
+​Extensible: Can be extended using C, C++, and other languages.
+​Community Support: Huge and active community worldwide.
+
+​3. Applications of Python
+​Web Development
+​Data Science & Analytics
+​Machine Learning
+​Automation & Scripting
+​DevOps & Infrastructure
+​Cybersecurity
+​Game Development
+
+Advantages of Python (Key Points Only):
+
+Easy to learn and use
+Simple and readable syntax
+Free and open source
+Cross-platform (portable)
+Large standard library
+Extensive third-party libraries
+Supports multiple programming paradigms
+Rapid application development
+Strong community support
+Used in AI, Data Science, Web Development, Automation, and Machine Learning
+
+Disadvantages of Python (Key Points Only):
+
+Slower execution speed
+High memory consumption
+Not suitable for mobile app development
+Weak in multithreading due to the Global Interpreter Lock (GIL)
+Runtime errors (dynamically typed language)
+Less efficient for high-performance applications
+Limited support for browser-side programming
+Weaker database access compared to some other languages
