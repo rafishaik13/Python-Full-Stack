@@ -1,0 +1,86 @@
+Topics: Set, dictionary,boolean, None,Type conversion(implicit,explicit).
+
+1. Set
+
+A set is a collection of unique items.
+It does not allow duplicates.
+Items are unordered (no fixed position).
+
+Example:
+
+fruits = {"apple", "banana", "apple"}
+print(fruits)
+Output:
+{'apple', 'banana'}
+
+2. Dictionary
+
+A dictionary stores data as key : value pairs.
+Each key must be unique.
+Used to quickly find information
+
+Example:
+student = {
+    "name": "Rahul",
+    "age": 20
+}
+print(student["name"])
+Output:
+Rahul
+
+3. Boolean
+
+A Boolean has only two values:
+True
+False
+Used in conditions and decision-making.
+
+Example:
+a = 10
+print(a > 5)
+Output:
+True
+
+4. None
+None means no value or nothing.
+It is used when a variable has no value assigned
+
+Example:
+
+x = None
+print(x)
+Output:
+None
+
+5. Type Conversion
+
+Type conversion means changing one data type into another.
+
+a) Implicit Type Conversion (Automatic)
+Python converts the type automatically
+
+Example:
+
+a = 5
+b = 2.5
+c = a + b
+print(c)
+print(type(c))
+Output:
+7.5
+<class 'float'>
+
+b) Explicit Type Conversion (Manual)
+The programmer converts the type using functions like:
+int()
+float()
+str()
+bool()
+
+Example:
+
+x = "10"
+y = int(x)
+print(y + 5)
+Output:
+15
