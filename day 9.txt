@@ -1,0 +1,628 @@
+Tuple in Python:
+
+Definition:
+
+A tuple is an ordered collection of elements in Python. Tuples are written using round brackets ( ).
+
+* ()
+* immutable
+* allows duplication
+* ordered
+* indexed
+* sliced
+* heterogenous
+* iterable
+
+Example:
+
+student = ("Ravi", 20, 85.5, True)
+print(student)
+
+Output:
+
+('Ravi', 20, 85.5, True)
+ 
+Operations on Tuple in Python:
+
+A tuple is an ordered and immutable collection of elements. We can perform several operations on tuples, but we cannot modify their existing elements.
+
+Example:
+
+a = (10, 20, 30)
+b = (40, 50, 60)
+
+1. Concatenation +
+
+Used to join two tuples.
+
+a = (10, 20)
+b = (30, 40)
+
+print(a + b)
+
+Output:
+
+(10, 20, 30, 40)
+
+2. Repetition *
+
+Repeats the elements of a tuple.
+
+a = (1, 2, 3)
+
+print(a * 2)
+
+Output:
+
+(1, 2, 3, 1, 2, 3)
+
+Tuple in Python
+Definition
+
+A tuple is an ordered collection of elements in Python. Tuples are written using round brackets ( ).
+
+numbers = (10, 20, 30, 40)
+print(numbers)
+
+Output:
+
+(10, 20, 30, 40)
+Features of Tuple
+Ordered – elements have a fixed order.
+Immutable – elements cannot be changed after creation.
+Allows duplicates.
+Allows different data types.
+Supports indexing and slicing.
+Usually written using ( ).
+Example
+student = ("Ravi", 20, 85.5, True)
+print(student)
+
+Output:
+
+('Ravi', 20, 85.5, True)
+1. Tuple Indexing
+
+Index starts from 0.
+
+fruits = ("Apple", "Banana", "Mango")
+
+print(fruits[0])
+print(fruits[2])
+
+Output:
+
+Apple
+Mango
+Negative Indexing
+print(fruits[-1])
+
+Output:
+
+Mango
+2. Tuple Slicing
+
+We can get a part of a tuple.
+
+numbers = (10, 20, 30, 40, 50)
+
+print(numbers[1:4])
+
+Output:
+
+(20, 30, 40)
+3. Tuple is Immutable
+
+We cannot change an existing element.
+
+numbers = (10, 20, 30)
+
+numbers[0] = 100
+
+This gives an error because tuples are immutable.
+
+Tuple Methods
+
+Tuples have only two main methods.
+
+1. count()
+
+Counts how many times an element occurs.
+
+numbers = (10, 20, 10, 30, 10)
+
+print(numbers.count(10))
+
+Output:
+
+3
+2. index()
+
+Returns the position of the first occurrence.
+
+numbers = (10, 20, 30)
+
+print(numbers.index(20))
+
+Output:
+
+1
+Tuple Functions
+
+We can use Python built-in functions with tuples.
+
+numbers = (10, 20, 30, 40)
+Function	Purpose
+len()	Finds number of elements
+max()	Finds largest element
+min()	Finds smallest element
+sum()	Adds elements
+sorted()	Sorts elements
+
+Example:
+
+numbers = (10, 20, 30)
+
+print(len(numbers))
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))
+
+Output:
+
+3
+30
+10
+60
+List vs Tuple
+List	Tuple
+Uses [ ]	Uses ( )
+Mutable	Immutable
+More methods	Only 2 main methods
+Can be changed	Cannot be changed
+Example: [10, 20, 30]	Example: (10, 20, 30)
+⭐ Easy Exam Definition
+
+A tuple is an ordered and immutable collection of elements in Python. It is generally written inside round brackets ( ) and can contain duplicate and different types of values.
+
+Example:
+
+student = ("Ravi", 20, "Python")
+operations on list
+Operations on List in Python
+
+List operations are the different actions we can perform on a list, such as accessing, adding, removing, joining, and checking elements.
+
+Example:
+
+a = [10, 20, 30]
+b = [40, 50, 60]
+1. Indexing
+
+Access an element using its index.
+
+print(a[0])
+print(a[2])
+
+Output:
+
+10
+30
+
+Note: List index starts from 0.
+
+2. Negative Indexing
+
+Access elements from the end.
+
+print(a[-1])
+
+Output:
+
+30
+3. Slicing
+
+Access a part of the list.
+
+a = [10, 20, 30, 40, 50]
+
+print(a[1:4])
+
+Output:
+
+[20, 30, 40]
+4. Concatenation +
+
+Joins two lists.
+
+a = [10, 20]
+b = [30, 40]
+
+print(a + b)
+
+Output:
+
+[10, 20, 30, 40]
+5. Repetition *
+
+Repeats a list.
+
+a = [1, 2, 3]
+
+print(a * 2)
+
+Output:
+
+[1, 2, 3, 1, 2, 3]
+6. Membership in
+
+Checks whether an element exists in the list.
+
+a = [10, 20, 30]
+
+print(20 in a)
+
+Output:
+
+True
+not in
+print(50 not in a)
+
+Output:
+
+True
+7. Updating Elements
+
+Lists are mutable, so we can change elements.
+
+a = [10, 20, 30]
+
+a[1] = 200
+
+print(a)
+
+Output:
+
+[10, 200, 30]
+8. Adding Elements
+append()
+a = [10, 20]
+
+a.append(30)
+
+print(a)
+
+Output:
+
+[10, 20, 30]
+insert()
+a.insert(1, 15)
+
+print(a)
+
+Output:
+
+[10, 15, 20, 30]
+9. Removing Elements
+remove()
+a = [10, 20, 30]
+
+a.remove(20)
+
+print(a)
+
+Output:
+
+[10, 30]
+pop()
+a = [10, 20, 30]
+
+a.pop(1)
+
+print(a)
+
+Output:
+
+[10, 30]
+10. Finding Length
+
+Using len():
+
+a = [10, 20, 30]
+
+print(len(a))
+
+Output:
+
+3
+11. Sorting
+a = [30, 10, 20]
+
+a.sort()
+
+print(a)
+
+Output:
+
+[10, 20, 30]
+12. Reversing
+a = [10, 20, 30]
+
+a.reverse()
+
+print(a)
+
+Output:
+
+[30, 20, 10]
+⭐ Important List Operations
+Operation	Example	Meaning
+Indexing	a[0]	Access element
+Negative indexing	a[-1]	Access from end
+Slicing	a[1:3]	Get part of list
+Concatenation	a + b	Join lists
+Repetition	a * 2	Repeat list
+Membership	10 in a	Check element
+Update	a[0] = 50	Change element
+Append	a.append(50)	Add at end
+Insert	a.insert(1,50)	Add at position
+Remove	a.remove(50)	Remove value
+Pop	a.pop()	Remove element
+Sort	a.sort()	Arrange elements
+Reverse	a.reverse()	Reverse elements
+⭐ Exam Answer
+
+List operations are the operations performed on list elements, such as indexing, slicing, concatenation, repetition, membership, updating, adding, removing, sorting, and reversing elements.
+
+operations on tuple
+Operations on Tuple in Python
+
+A tuple is an ordered and immutable collection of elements. We can perform several operations on tuples, but we cannot modify their existing elements.
+
+Example:
+
+a = (10, 20, 30)
+b = (40, 50, 60)
+
+3. Indexing
+
+Used to access an element using its position.
+
+print(a[0])
+print(a[2])
+
+Output:
+
+10
+30
+
+Index starts from 0.
+
+4. Slicing
+
+Used to get a part of a tuple.
+
+a = (10, 20, 30, 40, 50)
+
+print(a[1:4])
+
+Output:
+
+(20, 30, 40)
+
+5. Membership in
+
+Checks whether an element exists in the tuple.
+
+a = (10, 20, 30)
+
+print(20 in a)
+
+Output:
+
+True
+not in
+print(50 not in a)
+
+Output:
+
+True
+
+# Functions of Tuple in Python
+
+Tuple functions are **built-in Python functions** that can be used with tuples.
+
+Let's take:
+
+```python id="3b7x8q"
+t = (10, 20, 30, 40, 20)
+```
+
+### 1. `len()`
+
+Returns the **number of elements** in the tuple.
+
+```python id="0v8y7p"
+print(len(t))
+```
+
+Output:
+
+```text id="zq4y5f"
+5
+```
+
+---
+
+### 2. `max()`
+
+Returns the **largest element**.
+
+```python id="4q1y7r"
+print(max(t))
+```
+
+Output:
+
+```text id="t3q0o4"
+40
+```
+
+---
+
+### 3. `min()`
+
+Returns the **smallest element**.
+
+```python id="w5x2mz"
+print(min(t))
+```
+
+Output:
+
+```text id="k6o4x1"
+10
+```
+
+---
+
+### 4. `sum()`
+
+Returns the **sum of all elements**.
+
+```python id="g1s8kc"
+print(sum(t))
+```
+
+Output:
+
+```text id="2t3m8n"
+120
+```
+
+---
+
+### 5. `sorted()`
+
+Returns the tuple elements in **sorted order as a list**.
+
+```python id="q2h6lm"
+t = (40, 10, 30, 20)
+
+print(sorted(t))
+```
+
+Output:
+
+```text id="5qv1nz"
+[10, 20, 30, 40]
+```
+
+**Important:** `sorted()` returns a **list**, not a tuple.
+
+---
+
+### 6. `tuple()`
+
+Converts another iterable into a tuple.
+
+```python id="j7s4pk"
+numbers = [10, 20, 30]
+
+t = tuple(numbers)
+
+print(t)
+```
+
+Output:
+
+```text id="5y0g5x"
+(10, 20, 30)
+```
+
+---
+
+### 7. `any()`
+
+Returns `True` if **at least one element** is true.
+
+```python id="v0x9pr"
+t = (0, 0, 10)
+
+print(any(t))
+```
+
+Output:
+
+```text id="q1v5sj"
+True
+```
+
+---
+
+### 8. `all()`
+
+Returns `True` if **all elements** are true.
+
+```python id="5b7c2n"
+t = (10, 20, 30)
+
+print(all(t))
+```
+
+Output:
+
+```text id="1y9x6a"
+True
+```
+
+## Tuple Methods
+
+Tuple has only **two main methods**:
+
+### `count()`
+
+Counts how many times a value occurs.
+
+```python id="r9c3vd"
+t = (10, 20, 10, 30)
+
+print(t.count(10))
+```
+
+Output:
+
+```text id="6g2k8m"
+2
+```
+
+### `index()`
+
+Returns the position of the first occurrence.
+
+```python id="k8s2vw"
+t = (10, 20, 30)
+
+print(t.index(20))
+```
+
+Output:
+
+```text id="c7n4qx"
+1
+```
+
+## ⭐ Quick Revision
+
+| Function   | Purpose            |
+| ---------- | ------------------ |
+| `len()`    | Number of elements |
+| `max()`    | Largest element    |
+| `min()`    | Smallest element   |
+| `sum()`    | Sum of elements    |
+| `sorted()` | Sorts elements     |
+| `tuple()`  | Converts to tuple  |
+| `any()`    | At least one true  |
+| `all()`    | All true           |
+
+**Remember:** `count()` and `index()` are **tuple methods**, while `len()`, `max()`, `min()`, `sum()`, etc. are **built-in functions**.
