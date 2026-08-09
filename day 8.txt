@@ -1,0 +1,677 @@
+String Methods in Python:
+
+A string is a collection of characters written inside quotes.
+
+Example:
+name = "Python"
+
+String Methods:
+
+String Built-in Methods:
+
+Python has built-in String methods i.e. used on string it returns new values don't change original valve ord
+
+1. Capitalize()
+2. titte()
+3. istitle()
+4. ower()
+5. upper()
+6. Is Lower()
+7. 15 upper()
+8. Scwap case()
+9. Start's with()
+10. endes with()
+11. Strip()
+   rstrip()
+   lstrip()
+12. count()
+13. index()
+14. rindex()
+15. rfind()
+16. find()
+17. is identify()
+18. is alpha()
+19. is alnum()
+20. Is space()
+21. split()
+      rsplit()  
+22. Join
+23. center()
+
+1. `capitalize()`
+
+Converts the **first character to uppercase**.
+
+s = "python programming"
+print(s.capitalize())
+
+Output:
+
+Python programming
+
+2. `title()`
+
+Converts the **first letter of every word to uppercase**.
+
+s = "python programming"
+print(s.title())
+
+Output:
+
+Python Programming
+
+ 3. `istitle()`
+
+Checks whether the string is in **title case**.
+
+s = "Python Programming"
+print(s.istitle())
+
+Output:
+
+True
+
+ 4. `lower()`
+
+Converts all characters to **lowercase**.
+
+s = "PYTHON"
+print(s.lower())
+
+Output:
+
+python
+
+5. `upper()`
+
+Converts all characters to **uppercase**.
+
+
+s = "python"
+print(s.upper())
+
+Output:
+
+PYTHON
+
+6. `islower()`
+
+Checks whether all alphabetic characters are **lowercase**.
+
+s = "python"
+print(s.islower())
+
+Output:
+
+True
+
+7. `isupper()`
+
+Checks whether all alphabetic characters are **uppercase**.
+
+
+s = "PYTHON"
+print(s.isupper())
+
+
+Output:
+
+True
+
+8. `swapcase()`
+
+Converts uppercase to lowercase and lowercase to uppercase.
+
+s = "PyThOn"
+print(s.swapcase())
+
+Output:
+
+
+pYtHoN
+
+9. `startswith()`
+
+Checks whether a string **starts with** a particular value.
+
+
+s = "Python"
+print(s.startswith("Py"))
+
+Output:
+
+True
+
+10. `endswith()`
+
+Checks whether a string **ends with** a particular value.
+
+s = "Python"
+print(s.endswith("on"))
+
+Output:
+
+
+True
+
+11. `strip()`, `rstrip()`, `lstrip()`
+
+**`strip()`** removes spaces from both sides.
+
+s = "  Python  "
+print(s.strip())
+
+
+Output:
+
+Python
+
+**`lstrip()`** removes spaces from the left side.
+
+
+s = "  Python"
+print(s.lstrip())
+
+**`rstrip()`** removes spaces from the right side.
+
+s = "Python  "
+print(s.rstrip())
+
+12. `count()`
+
+Counts how many times a value occurs.
+
+s = "banana"
+print(s.count("a"))
+
+Output:
+
+3
+
+13. `index()`
+
+Returns the position of the first occurrence.
+
+s = "Python"
+print(s.index("t"))
+
+Output:
+
+2
+
+⚠️ If the value is not found, `index()` gives an error.
+
+---
+
+14. `rindex()`
+
+Returns the position of the **last occurrence**.
+
+s = "banana"
+print(s.rindex("a"))
+
+Output:
+
+5
+
+15. `rfind()`
+
+Finds the position of the **last occurrence**.
+
+
+s = "banana"
+print(s.rfind("a"))
+
+Output:
+
+5
+
+If not found, `rfind()` returns `-1`.
+16. `find()`
+
+Finds the position of the **first occurrence**.
+
+s = "Python"
+print(s.find("t"))
+
+Output:
+
+2
+
+If not found:
+
+print(s.find("z"))
+
+Output:
+
+-1
+
+17. `isidentifier()`
+
+Checks whether a string is a valid **Python identifier**.
+
+s = "student"
+print(s.isidentifier())
+
+Output:
+
+True
+
+Example:
+
+s = "123student"
+print(s.isidentifier())
+
+Output:
+
+False
+
+18. `isalpha()`
+
+Checks whether all characters are **alphabets**.
+
+s = "Python"
+print(s.isalpha())
+
+Output:
+
+True
+
+Numbers and spaces make it `False`.
+
+19. `isalnum()`
+
+Checks whether all characters are **letters or numbers**.
+
+
+s = "Python123"
+print(s.isalnum())
+
+Output:
+
+
+True
+
+20. `isspace()`
+
+Checks whether the string contains **only spaces/whitespace**.
+
+
+s = "   "
+print(s.isspace())
+
+Output:
+
+
+True
+
+21. `split()` and `rsplit()`
+
+**`split()`** divides a string into a list.
+
+s = "apple banana mango"
+print(s.split())
+
+Output:
+
+['apple', 'banana', 'mango']
+
+**`rsplit()`** also splits the string, but starts splitting from the **right side**.
+
+s = "apple-banana-mango"
+print(s.rsplit("-", 1))
+
+Output:
+
+['apple-banana', 'mango']
+```
+22. `join()`
+
+Joins multiple strings together.
+
+words = ["Python", "is", "easy"]
+
+print(" ".join(words))
+
+Output:
+
+Python is easy
+
+Another example:
+
+
+words = ["A", "B", "C"]
+
+print("-".join(words))
+
+Output:
+
+
+A-B-C
+
+23. `center()`
+
+Places a string in the **center** within a specified width.
+
+
+s = "Python"
+print(s.center(10, "*"))
+
+Output:
+
+**Python**
+
+
+⭐ Quick Revision
+
+| No. | Method           | Simple Meaning                        |
+| --: | ---------------- | ------------------------------------- |
+|   1 | `capitalize()`   | First letter uppercase                |
+|   2 | `title()`        | First letter of every word uppercase  |
+|   3 | `istitle()`      | Checks title case                     |
+|   4 | `lower()`        | Converts to lowercase                 |
+|   5 | `upper()`        | Converts to uppercase                 |
+|   6 | `islower()`      | Checks lowercase                      |
+|   7 | `isupper()`      | Checks uppercase                      |
+|   8 | `swapcase()`     | Changes upper ↔ lower                 |
+|   9 | `startswith()`   | Checks beginning                      |
+|  10 | `endswith()`     | Checks ending                         |
+|  11 | `strip()`        | Removes spaces from both sides        |
+|  12 | `count()`        | Counts occurrences                    |
+|  13 | `index()`        | Finds first position; error if absent |
+|  14 | `rindex()`       | Finds last position; error if absent  |
+|  15 | `rfind()`        | Finds last position                   |
+|  16 | `find()`         | Finds first position                  |
+|  17 | `isidentifier()` | Checks valid Python identifier        |
+|  18 | `isalpha()`      | Checks alphabets                      |
+|  19 | `isalnum()`      | Checks letters + numbers              |
+|  20 | `isspace()`      | Checks whitespace                     |
+|  21 | `split()`        | Splits into a list                    |
+|  22 | `rsplit()`       | Splits from right                     |
+|  23 | `join()`         | Joins strings                         |
+|  24 | `center()`       | Centers a string                      |
+
+List:
+
+A list is a collection of elements in Python. It is used to store multiple values in a single variable.
+
+A list is written using square brackets [ ].
+
+Example:
+numbers = [10, 20, 30, 40]
+ * []
+ * mutable
+ * ordered
+ * allows duplicates
+ * index(access the element)
+ * iterable
+ * heterogenous
+ *dyanamic site(can groon\shrink)
+
+ Operations on List in Python:
+
+List operations are actions performed on lists, such as adding, removing, accessing, joining, and checking elements
+
+a = [10, 20, 30]
+b = [40, 50, 60]
+
+1. Concatenation (+)
+
+Used to join two lists.
+
+print(a + b)
+
+Output:
+
+[10, 20, 30, 40, 50, 60]
+
+2. Repetition (*)
+
+Repeats a list multiple times.
+
+a = [1, 2, 3]
+
+print(a * 2)
+
+Output:
+
+[1, 2, 3, 1, 2, 3]
+
+3. Indexing
+
+Used to access an element using its position.
+
+print(a[0])
+print(a[2])
+
+Output:
+
+10
+30
+
+4. Slicing
+
+Used to get a part of a list.
+
+a = [10, 20, 30, 40, 50]
+
+print(a[1:4])
+
+5. Membership (in)
+
+Checks whether an element exists in the list.
+
+a = [10, 20, 30]
+
+print(20 in a)
+
+Output:
+
+True
+not in
+print(50 not in a)
+
+Output:
+
+True
+
+List Functions in Python:
+
+List functions are built-in Python functions that can be used with lists.
+
+a = [10, 20, 30, 40]
+
+1. len()
+
+Returns the number of elements in the list.
+
+print(len(a))
+
+Output:
+
+4
+
+2. max()
+
+Returns the largest element.
+
+print(max(a))
+
+Output:
+
+40
+
+3. min()
+
+Returns the smallest element.
+
+print(min(a))
+
+Output:
+
+10
+
+4. sum()
+
+Returns the sum of all elements.
+
+print(sum(a))
+
+Output:
+
+100
+
+5. sorted()
+
+Returns a sorted list.
+
+a = [30, 10, 40, 20]
+
+print(sorted(a))
+
+Output:
+
+[10, 20, 30, 40]
+
+6. list()
+
+Converts another iterable into a list.
+
+x = "ABC"
+
+print(list(x))
+
+Output:
+
+['A', 'B', 'C']
+
+7. any()
+
+Returns True if at least one element is true.
+
+a = [0, 0, 10]
+
+print(any(a))
+
+Output:
+
+True
+
+8. all()
+
+Returns True if all elements are true.
+
+a = [10, 20, 30]
+
+print(all(a))
+
+Output:
+
+True
+
+List Methods in Python
+
+List methods are built-in methods used to add, remove, modify, and organize elements in a list.
+
+Example:
+
+numbers = [10, 20, 30, 20]
+Important List Methods
+
+1. append()
+
+Adds an element at the end of the list.
+
+numbers.append(40)
+print(numbers)
+
+Output:
+
+[10, 20, 30, 20, 40]
+
+2. insert()
+
+Adds an element at a specific position.
+
+numbers.insert(1, 15)
+print(numbers)
+
+Output:
+
+[10, 15, 20, 30, 20]
+
+3. extend()
+
+Adds multiple elements to the end of a list.
+
+numbers.extend([40, 50])
+print(numbers)
+
+Output:
+
+[10, 20, 30, 20, 40, 50]
+
+4. remove()
+
+Removes the first occurrence of a specified value.
+
+numbers.remove(20)
+print(numbers)
+
+Output:
+
+[10, 30, 20]
+
+5. pop()
+
+Removes and returns an element using its index.
+
+numbers = [10, 20, 30]
+
+numbers.pop(1)
+print(numbers)
+
+Output:
+
+[10, 30]
+
+If no index is given, it removes the last element:
+
+numbers.pop()
+
+6. clear()
+
+Removes all elements from the list.
+
+numbers = [10, 20, 30]
+
+numbers.clear()
+print(numbers)
+
+Output:
+
+[]
+
+7. index()
+
+Returns the index of the first occurrence of a value.
+
+numbers = [10, 20, 30, 20]
+
+print(numbers.index(20))
+
+Output:
+
+1
+
+8. count()
+
+Counts how many times a value occurs.
+
+numbers = [10, 20, 30, 20]
+
+print(numbers.count(20))
+
+Output:
+
+2
