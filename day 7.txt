@@ -1,0 +1,115 @@
+1. GitHub:
+
+GitHub is a website where we store and share our code online. It uses Git for version control.
+
+Example;
+
+You create a Python project on your computer and upload it to GitHub. Other developers can see, download, or work on your project.
+
+Common GitHub uses:
+
+1.Store code
+2.Share projects
+3.Work with a team
+4.Track changes
+5.Backup projects
+
+2. Git Commands
+
+Git is a tool used to manage changes in your code.
+
+Common commands
+Command	           Meaning	                 Example
+git init	   Create a Git repository	   git init
+git status	   Check changes	           git status
+git add	       Add files for commit	       git add file.py
+git commit	   Save changes	               git commit -m "First commit"
+git push	   Upload code to GitHub	   git push origin main
+git pull	   Download latest changes	   git pull origin main
+git clone	   Copy GitHub project    	   git clone URL
+git log	       See commit history	       git log
+
+Sample Example;
+
+git init
+git add .
+git commit -m "First commit"
+git push origin main
+
+Topics: github,git commands and set into, operation , built-in functions
+give me simple ans and examples
+
+Sure — here are simple notes with easy examples for each topic.
+
+1. GitHub
+
+GitHub is a website where we store and share our code online. It uses Git for version control.
+
+Example
+
+You create a Python project on your computer and upload it to GitHub. Other developers can see, download, or work on your project.
+
+Common GitHub uses:
+
+Store code
+Share projects
+Work with a team
+Track changes
+Backup projects
+2. Git Commands
+
+Git is a tool used to manage changes in your code.
+
+Common commands
+Command	Meaning	Example
+git init	Create a Git repository	git init
+git status	Check changes	git status
+git add	Add files for commit	git add file.py
+git commit	Save changes	git commit -m "First commit"
+git push	Upload code to GitHub	git push origin main
+git pull	Download latest changes	git pull origin main
+git clone	Copy GitHub project	git clone URL
+git log	See commit history	git log
+Simple example
+git init
+git add .
+git commit -m "First commit"
+git push origin main
+
+3. Set in Python:
+
+A set is a collection of unique values.
+
+
+Example:
+numbers = {1, 2, 3, 4, 4}
+
+print(numbers)
+Output:
+{1, 2, 3, 4}
+
+*Notice that 4 appears only once because a set does not allow duplicates
+
+Creating an empty set
+s = set()
+
+Don't use {} because that creates an empty dictionary.
+
+Built-in Functions in Python:
+
+Built-in functions are functions already provided by Python:
+
+| Function   | Use                 | Example           | Output    |
+| ---------- | ------------------- | ----------------- | --------- |
+| `print()`  | Display output      | `print("Hello")`  | `Hello`   |
+| `len()`    | Find length         | `len("Python")`   | `6`       |
+| `type()`   | Find data type      | `type(10)`        | `int`     |
+| `int()`    | Convert to integer  | `int("10")`       | `10`      |
+| `float()`  | Convert to float    | `float("10.5")`   | `10.5`    |
+| `str()`    | Convert to string   | `str(100)`        | `"100"`   |
+| `max()`    | Find largest value  | `max(10, 20, 30)` | `30`      |
+| `min()`    | Find smallest value | `min(10, 20, 30)` | `10`      |
+| `sum()`    | Add values          | `sum([1,2,3])`    | `6`       |
+| `abs()`    | Absolute value      | `abs(-5)`         | `5`       |
+| `round()`  | Round number        | `round(10.56)`    | `11`      |
+| `sorted()` | Sort values         | `sorted([3,1,2])` | `[1,2,3]` |
