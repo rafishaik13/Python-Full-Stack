@@ -1,0 +1,136 @@
+1. if Statement:
+
+The if statement executes a block of code only when the condition is True.
+
+Syntax:
+if condition:
+    statement
+Example
+age = 20
+
+if age >= 18:
+    print("You are eligible to vote")
+
+Output:
+
+You are eligible to vote
+
+2. if-else Statement
+
+The if-else statement is used when there are two possible outcomes.
+
+If the condition is True → if block executes.
+If the condition is False → else block executes.
+Syntax
+if condition:
+    statement1
+else:
+    statement2
+Example
+age = 16
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+
+Output:
+
+Not eligible to vote
+
+3. elif Statement:
+
+elif stands for "else if". It is used when we need to check multiple conditions.
+
+Syntax
+if condition1:
+    statement
+elif condition2:
+    statement
+else:
+    statement
+Example
+marks = 75
+
+if marks >= 90:
+    print("Grade A+")
+elif marks >= 75:
+    print("Grade A")
+elif marks >= 60:
+    print("Grade B")
+else:
+    print("Grade C")
+
+Output:
+
+Grade A
+
+4. Nested if
+
+An if statement written inside another if statement is called a nested if.
+
+Syntax
+if condition1:
+    if condition2:
+        statement
+Example
+age = 20
+citizen = True
+
+if age >= 18:
+    if citizen:
+        print("Eligible to vote")
+
+Output:
+
+Eligible to vote
+
+5. for Loop
+
+A for loop is used to repeat a block of code for each item in a sequence or iterable.
+
+It can be used with:
+
+Lists
+Tuples
+Sets
+Dictionaries
+Strings
+range()
+
+Syntax:
+for variable in sequence:
+    statement
+
+Example 1: Using for with a List
+numbers = [10, 20, 30, 40]
+
+for num in numbers:
+    print(num)
+Output:
+10
+20
+30
+40
+
+Basic Examples:
+
+elif:
+
+if marks >= 90:
+    print("A")
+elif marks >= 60:
+    print("B")
+else:
+    print("C")
+
+Nested if:
+
+if age >= 18:
+    if citizen:
+        print("Eligible")
+
+for loop:
+
+for i in range(1, 6):
+    print(i)
